@@ -1,0 +1,149 @@
+
+ul li {
+  list-style: none;
+}
+*{margin:0;
+padding:0;}
+header .main{
+  width:100%;
+  height:40px;
+  font-size:25px;
+  margin-top:15px;
+  font-family: 'Righteous', cursive;
+  text-align: center;
+}
+header .main div{
+  width:40px;
+  height:40px;
+  background-color: orange;
+  position: absolute;
+  top:8px;
+  left:8px;
+  border-radius: 10px;
+
+}
+header .search{
+  width:33px;
+  height:33px;
+  position: absolute;
+  top:10px;
+  right:10px;
+}
+header .search img{
+  width:100%;
+  height:100%;
+}
+header ul{
+  width:100%;
+  height:850px;
+
+}
+header ul li{
+  width:100%;
+  height:850px;
+}
+nav ul{
+  width:100%;
+  height:70px;
+}
+nav ul li{
+  width:20%;
+  height:35px;
+  font-size:17px;
+  padding-top:7px;
+  font-family: 'Nanum Gothic', sans-serif;
+  float:left;
+  border-right:1px solid #BFBFBF;
+  border-bottom:1px solid #BFBFBF;
+  box-sizing: border-box;
+  text-align: center;
+
+}
+nav ul li:first-child, li:nth-child(2){
+  font-family: 'Righteous', cursive;
+  font-size: 20px;
+  padding-top:5px;
+}
+nav ul li:nth-child(5), li:nth-child(10){
+  border-right:0;
+}
+.event>div:first-child{
+  width:100%;
+  height:200px;
+  background-color: #808080;
+  border-bottom: 1px solid red;
+  margin-bottom:3px;
+}
+.event>div:nth-child(2), .event>div:nth-child(3){
+  width:100%;
+  height:100px;
+  background-color: #808080;
+  margin-bottom: 3px;
+  border-bottom: 1px solid green;
+}
+section p{
+  text-align: center;
+  font-size:23px;
+  padding-top:50px;
+  padding-bottom:10px;
+  font-family: 'Dosis', sans-serif;
+}
+.item_wrap{
+  width:100%;
+  height:450px;
+  padding-left:2px;
+  padding-right:2px;
+}
+.item_wrap div{
+  width:210px;
+  height:450px;
+  float:left;
+  box-sizing: border-box;
+  margin-right:5px;
+  margin-bottom:10px;
+}
+.item_wrap div:last-child{
+  margin-right:0;
+}
+.item_wrap .colorbox{
+  width:20px;
+  height:20px;
+  float:left;
+  background-color:#E8E5DE;
+  margin-top:3px;
+  margin-left:3px;
+  margin-bottom:0;
+}
+.item_wrap p{
+  font-size:17px;
+  line-height: 25px;
+  text-align: left;
+  padding-top:3px;
+  padding-bottom:3px;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+.item_wrap>.p_top{
+  padding-top:27px;
+}
+.item_wrap>div>p>span{
+  font-size:17px;
+  font-family: 'Tomorrow', sans-serif;
+}
+.item_wrap hr{
+  padding:0;
+  margin:0;
+}
+
+/*m_event*/
+.m_event{
+  width:100%;
+  height:400px;
+  margin-top:50px;
+  background-color: #808080;
+}
+footer{
+  width:100%;
+  height:300px;
+  background-color:#2d2d2d;
+  margin-top:50px;
+}
