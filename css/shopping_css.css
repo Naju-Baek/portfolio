@@ -238,6 +238,7 @@ nav ul li img{
     color:#ffffff;
     z-index: 1;
     font-family: 'Tomorrow', sans-serif;
+    cursor:pointer;
   }
   section>.main>.button>.left{
     float:left;
@@ -343,6 +344,7 @@ nav ul li img{
     font-family: 'Tomorrow', sans-serif;
     font-size: 80px;
     color:#808080;
+    cursor:pointer;
   }
   .best_button_wrap .b_left{
     float:left;

@@ -20,9 +20,12 @@ $(function(){
     autoplaySpeed:3000,
     slidesToShow:3,
     slidesToscroll:1,
-    arrows:false,
+    arrows:true,
     fade:false,
+    prevArrow: $('.left'),
+    nextArrow: $('.right'),
   });
+
 
   $('.best_wrap1').slick({
     autoplay:true,
@@ -30,8 +33,10 @@ $(function(){
     speed:1000,
     slidesToshow:1,
     slidesToscroll:1,
-    arrows:false,
+    arrows:true,
     fade:false,
+    prevArrow: $('.b_left'),
+    nextArrow: $('.b_right'),
   });
 
 
@@ -180,45 +185,46 @@ $(function(){
   });
 //메인메뉴 슬라이드 end
 
-/* 배너슬라이드
-var eleWidth = $(".main_wrap ul li").innerWidth();
-var state = false;
-var direction = "left";
-var bannerAuto;
 
+//  배너슬라이드
+// var eleWidth = $(".main_wrap ul li").innerWidth();
+// var state = false;
+// var direction = "left";
+// var bannerAuto;
+//
+//
+//
+// function right(){
+//   direction = "right";
+//   $(".main_wrap ul").animate({left:(eleWidth*-1)},500,function(){
+//     $(this).children("li:first").insertAfter($(this).children("li:last"));
+//     $(this).css({left:0});
+//     state = false;
+//   });
+// }
+//
+// function left(){
+//   direction = "left";
+//   $(".main_wrap ul").animate({left:(eleWidth*1)},500,function(){
+//     $(this).css({left:0});
+//     $(this).children("li:last").insertBefore($(this).children("li:first"));
+//     state = false;
+//   });
+// }
+//
+// $(".left").click(function(){
+//   if(!state){
+//     state=true;
+//     left();
+//   }
+// });
+// $(".right").click(function(){
+//   if(!state){
+//     state=true;
+//     right();
+//   }
+// });
 
-
-function right(){
-  direction = "right";
-  $(".main_wrap ul").animate({left:(eleWidth*-1)},500,function(){
-    $(this).children("li:first").insertAfter($(this).children("li:last"));
-    $(this).css({left:0});
-    state = false;
-  });
-}
-
-function left(){
-  direction = "left";
-  $(".main_wrap ul").animate({left:(eleWidth*1)},500,function(){
-    $(this).css({left:0});
-    $(this).children("li:last").insertBefore($(this).children("li:first"));
-    state = false;
-  });
-}
-
-$(".left").click(function(){
-  if(!state){
-    state=true;
-    left();
-  }
-});
-$(".right").click(function(){
-  if(!state){
-    state=true;
-    right();
-  }
-});
-*/
 
 
 
