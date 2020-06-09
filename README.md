@@ -13,5 +13,5 @@
 
 아래 페이지에서 확인할 수 있습니다.
 
-https://baby-lamb.github.io/portfolio_shoppingmall/.
+https://baby-lamb.github.io/shoppingmall-jquery-/.
 
